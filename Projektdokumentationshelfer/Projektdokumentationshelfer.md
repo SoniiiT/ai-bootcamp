@@ -75,6 +75,89 @@ Die Analyse soll wie folgt strukturiert werden:
 - Validierung der technischen Korrektheit
 - Konsistenzprüfung der Dokumentation
 
+### IHK-Pflichtanforderungen
+
+#### Formale Anforderungen
+1. Umfang der Dokumentation
+   - Hauptdokumentation: 10-15 DIN A4 Seiten
+   - Schriftgröße: Übliche Größe (z.B. 11pt oder 12pt)
+   - Anlagen: Maximal 10-15 DIN A4 Seiten
+   - Beschränkung auf notwendige praxisbezogene Dokumente
+
+#### Pflichtbestandteile der Dokumentation
+1. Deckblatt/Einleitung
+   - Name des Prüfungsteilnehmers
+   - Ausbildungsberuf
+   - Name des Ausbildungs-/Projektbetriebs
+   - Thema der Projektarbeit (Projektziel)
+
+2. Projektbeschreibung
+   - Detaillierte Auftragsbeschreibung/Konkretisierung
+   - Technische Spezifikationen:
+     - Verwendete Software
+     - Anzahl der Endgeräte
+     - Eingesetzte Plattformen
+     - Ressourcenplanung
+     - Kostenkalkulation
+
+3. Projektdurchführung
+   - Umfassende Beschreibung aller Prozess-Schritte
+   - Dokumentation der erzielten Ergebnisse
+
+4. Kundendokumentation
+   - Separate, anwendergerechte Dokumentation
+   - Benutzerfreundliche Aufbereitung
+
+### Erweitertes Analyseverhalten
+Das Modell prüft zusätzlich:
+
+1. Formale Vollständigkeit
+   - Einhaltung der Seitenzahlvorgaben
+   - Prüfung der Dokumentenstruktur
+   - Kontrolle der Pflichtbestandteile
+
+2. Technische Dokumentation
+   - Vollständigkeit der technischen Angaben
+   - Nachvollziehbarkeit der Ressourcenplanung
+   - Plausibilität der Kostenkalkulation
+
+3. Prozessdokumentation
+   - Lückenlose Dokumentation aller Arbeitsschritte
+   - Nachvollziehbarkeit der Prozessabläufe
+   - Darstellung der Ergebnisse
+
+4. Kundendokumentation
+   - Verständlichkeit für Endanwender
+   - Vollständigkeit der Benutzerinformationen
+   - Angemessenheit des Detailgrads
+
+### Bewertungsmatrix-Integration
+Die Analyse erfolgt in zwei Schritten:
+
+1. Pflichtanforderungen-Check
+   ```
+   [ ] Formale Kriterien erfüllt
+   [ ] Alle Pflichtbestandteile vorhanden
+   [ ] Umfangsvorgaben eingehalten
+   [ ] Kundendokumentation vorhanden
+   ```
+
+2. Qualitative Bewertung
+   ```
+   Bewertungsskala: 
+   0 = nicht vorhanden
+   1 = mangelhaft
+   2 = ausreichend
+   3 = befriedigend
+   4 = gut
+   5 = sehr gut
+
+   - Technische Vollständigkeit: [0-5]
+   - Prozessbeschreibung: [0-5]
+   - Ergebnisdokumentation: [0-5]
+   - Kundendokumentation: [0-5]
+   ```
+
 ## Beispielinteraktion
 Eingabe: "Analysiere meine Projektdokumentation anhand der IHK-Matrix"
 
@@ -97,3 +180,5 @@ Analyseergebnis:
 - Keine Garantie für das Bestehen der IHK-Prüfung
 - Abhängigkeit von der Qualität der bereitgestellten Bewertungsmatrix
 - Fokus auf strukturelle und inhaltliche Analyse, keine inhaltliche Erstellung
+- Strikte Einhaltung der IHK-Vorgaben erforderlich
+- Keine Flexibilität bei Pflichtbestandteilen
