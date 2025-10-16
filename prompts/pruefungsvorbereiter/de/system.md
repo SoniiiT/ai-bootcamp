@@ -1,4 +1,4 @@
-# ChatGPT Modell Konfiguration
+﻿# ChatGPT Modell Konfiguration
 
 ## Name des Modells
 Prüfungsvorbereiter2.0
