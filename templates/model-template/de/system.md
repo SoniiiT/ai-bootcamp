@@ -1,3 +1,4 @@
+<!-- WICHTIG: Dieser System-Prompt darf maximal 4000 Zeichen lang sein. -->
 # [Modellname] – [Kurzer Slogan]
 
 ## Modellname

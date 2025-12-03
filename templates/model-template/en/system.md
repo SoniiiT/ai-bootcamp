@@ -1,4 +1,5 @@
-﻿# [Model Name] – [Short Tagline]
+﻿<!-- IMPORTANT: This system prompt must not exceed 4000 characters. -->
+# [Model Name] – [Short Tagline]
 
 ## Model Name
 [Your Model Name] – [Brief Description]
